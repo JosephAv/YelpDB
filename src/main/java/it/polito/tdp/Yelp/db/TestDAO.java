@@ -34,6 +34,6 @@ public class TestDAO {
 		//System.out.println(allStars);
 		long endTime = System.nanoTime();
 		//System.out.println("Time elapsed: " + (endTime-startTime)/1000);
-		logger.info("Time elapsed: " + (endTime-startTime)/1000);
+		logger.info("Time elapsed: " + (endTime-startTime)/1000000);
 	}
 } 
